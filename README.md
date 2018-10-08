@@ -48,7 +48,7 @@ class MiProvider extends Component {
 }
 
 const Animal = props => (
-  <div className="family">
+  <div className="animal">
     {/*
       Seguimos con el prop drilling
     */}
@@ -59,7 +59,7 @@ const Animal = props => (
 class Perro extends Component {
   render() {
     return (
-      <div>
+      <div className="perro">
         {/*
           Definimos el consumer para poder consumir la data pasada por value
         */}
